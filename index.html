@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant Website">
+    <meta name="keywords" content="">
+    <meta name="author" content="Hisham Medhat Mohamed">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Bebo4Food</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav_logo">Bebo4Food</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About Us</a></li>
+                    <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
+                    <li class="nav_item"><a href="#reservation" class="nav_link">Reservations</a></li>
+                    <li class="nav_item"><i class='bx bx-moon theme_button' id="theme-button"></i></li>
+                </ul>
+            </div>
+            <div class="nav_toggle" onclick="menu()">
+                <i class='bx bx-menu' id="nav-toggle"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-------- HOME -------->
+        <section class="home section" id="home">
+            <div class="home_div">
+                <h1 class="home_title">Welcom To Our Foods</h1>
+                <p>Browse our menu and book an order</p>
+                <a href="#reservation" class="button">Book An Order</a>
+            </div>
+
+            <div class="home_img">
+                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjJuhcXSGKDKWxe8t3z_BcFhhdWxKi0CxPsUPGxYH7iLO5c8EvF16WjMxhbvqqKX22O9tEy2KKWM72r4MRPkxKFMbowH3UmAqhG2V2l1VQC76cw3hj1Gd-3PIbhfkD6yqFWrHgpq_vzg_cgZ0JcF2gPGyRbYDRCWTwayAh4iLYCHe73l7xyI8ityQ=s360"
+                    alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about" id="about">
+            <div class="container section">
+                <div class="about_img">
+                    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj9px1XV0F3zYGdrpL6cHqyQsN9sbUPqUGptgqq_yezGJ64VPHN2irvmaPTjoAXw1An-EW_tVyr18QDapSnkP6dtEAR0vbNJKLo_VM4wWfc4FLvS4GQbTjng_KaqNr9nBwtRqIUNqk3y2Y6HLwI1rXrAYHHQaf_VQVE1nZsVI8Q8CtnkAl5oS5Nmw=s800"
+                        alt="about">
+                </div>
+                <div class="about_container">
+                    <h2 class="section-title">Our Foods</h2>
+                    <h3>Our Story</h3>
+                    <p>
+                        We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.
+                    </p>
+                    <a href="#" class="about_button">More About us <i class='bx'></i></a>
+                </div>
+            </div>
+        </section>
+        <!--===== Menu =====-->
+        <section class="menu section " id="menu">
+            <h2 class="section-title">Reservations</h2>
+            <h3>Our Menu</h3>
+            <div class="menu_container">
+
+                <div class="categorie">
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgrQ7q0mV_hL_4fD9ym5XL2c1KslXYQivB1F2nlPFPHy4Wc_qkr2AP5E0C85OyNkGBzQft-TmFU0jyEw5rcflZBOHqiHzROwMxvhK-zhc9PPe96Y125WUUa24zJwlELEpRfMuSNTAc8LGXHQgxpnwaFZDiUma7-w4yiRaAWQhUzwYUD1sKpiUvFwA=s900">
+                    </div>
+                    <div class="categorie_div">
+                        <h4>Breakfast</h4>
+                        <div class="plate">
+                            Berries
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Cold Cereal
+                            <span class="prix">$13</span>
+                        </div>
+
+                        <div class="plate">
+                            Eggs
+                            <span class="prix">$8</span>
+                        </div>
+                        <div class="plate">
+                            Peanut butter
+                            <span class="prix">$12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categorie">
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgUxnKBOIrHRHI9RANgAwerg-I49D0vuPKVf4q1osEizhKcPmkMh9i97vsBabwKdp95XRVAMcH2-3s4yGl3R4UQl3nZT0O6NDAsVbdpwffNraKpiwiCxB9EHn5nK0S0Gtnyhi4zYn6yA0YLM_U8_Roz2yGh8ActVh94yuH3uKRaVgvos9XoCPzKEQ=s360">
+                    </div>
+                    <div class="categorie_div">
+                        <h4>Rice Bowl</h4>
+                        <div class="plate">
+                            Berries
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Cold Cereal
+                            <span class="prix">$13</span>
+                        </div>
+
+                        <div class="plate">
+                            Eggs
+                            <span class="prix">$8</span>
+                        </div>
+                        <div class="plate">
+                            Peanut butter
+                            <span class="prix">$12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categorie">
+
+                    <div class="categorie_div">
+                        <h4>Salad</h4>
+                        <div class="plate">
+                            Berries
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Cold Cereal
+                            <span class="prix">$13</span>
+                        </div>
+
+                        <div class="plate">
+                            Eggs
+                            <span class="prix">$8</span>
+                        </div>
+                        <div class="plate">
+                            Peanut butter
+                            <span class="prix">$12</span>
+                        </div>
+                    </div>
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjQwd8q10IAXb-jav9Hz1yphCOVjG4yGfqAMmOto3nHpvX1UkrfxdSiNJX3mwqcQ8J_GS5joU2LaumY67ncNSWphY-BYRZvZBRBhanGzgjn5iouUPcjepUtG8B-uJLJA9ogdm2ymy-c6r0g67lKyOv0OtLmS3_DjRuBXDTqW3QqGgxVGldlLTIJQA=s360">
+                    </div>
+                </div>
+
+                <div class="categorie">
+                    <div class="categorie_div">
+                        <h4>chicken</h4>
+                        <div class="plate">
+                            Berries
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Cold Cereal
+                            <span class="prix">$13</span>
+                        </div>
+
+                        <div class="plate">
+                            Eggs
+                            <span class="prix">$8</span>
+                        </div>
+                        <div class="plate">
+                            Peanut butter
+                            <span class="prix">$12</span>
+                        </div>
+                    </div>
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEg9zG1s_oJlFPWOfWYzXq_yiN93Hhjox-0oA-2URIRSYCjeuxrJtFQzoZPFaEF2ioxBo2Hx17FC_CoDkZbqSTrPMETn424usIvudG6VPtRpHANKvRalD3Evdp2Lmk3G1E94q_ntCgMbyDu8GM6E0_BlriAQzP8hfV3VFQaKo9ioYwK0DaVWd0GU3w=s360">
+                    </div>
+                </div>
+
+                <div class="categorie">
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjJuhcXSGKDKWxe8t3z_BcFhhdWxKi0CxPsUPGxYH7iLO5c8EvF16WjMxhbvqqKX22O9tEy2KKWM72r4MRPkxKFMbowH3UmAqhG2V2l1VQC76cw3hj1Gd-3PIbhfkD6yqFWrHgpq_vzg_cgZ0JcF2gPGyRbYDRCWTwayAh4iLYCHe73l7xyI8ityQ=s360">
+                    </div>
+                    <div class="categorie_div">
+                        <h4>Crezy Beef</h4>
+                        <div class="plate">
+                            Berries
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Cold Cereal
+                            <span class="prix">$13</span>
+                        </div>
+
+                        <div class="plate">
+                            Eggs
+                            <span class="prix">$8</span>
+                        </div>
+                        <div class="plate">
+                            Peanut butter
+                            <span class="prix">$12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categorie">
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhG2mLQDnmLlfnKhyymmcaHCgNgQJwJDqNrfRqGWD6zfEQCSRItws2wGOwW4KavWdzRu3si0kmcfk5slysam_mmjWmx76R0HuZrFxO-73clpkYbIUw09x8hKiDSLZbrdBcN-BO-U39x-ESrhY-2k9qRyuGP46nJn3DzgLWEORhA-HDnF1XxhKfQcg=s360">
+                    </div>
+                    <div class="categorie_div">
+                        <h4>Burger</h4>
+                        <div class="plate">
+                            Berries
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Cold Cereal
+                            <span class="prix">$13</span>
+                        </div>
+
+                        <div class="plate">
+                            Eggs
+                            <span class="prix">$8</span>
+                        </div>
+                        <div class="plate">
+                            Peanut butter
+                            <span class="prix">$12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categorie">
+
+                    <div class="categorie_div">
+                        <h4>Cake</h4>
+                        <div class="plate">
+                            Berries
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Cold Cereal
+                            <span class="prix">$13</span>
+                        </div>
+
+                        <div class="plate">
+                            Eggs
+                            <span class="prix">$8</span>
+                        </div>
+                        <div class="plate">
+                            Peanut butter
+                            <span class="prix">$12</span>
+                        </div>
+                    </div>
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgrQ7q0mV_hL_4fD9ym5XL2c1KslXYQivB1F2nlPFPHy4Wc_qkr2AP5E0C85OyNkGBzQft-TmFU0jyEw5rcflZBOHqiHzROwMxvhK-zhc9PPe96Y125WUUa24zJwlELEpRfMuSNTAc8LGXHQgxpnwaFZDiUma7-w4yiRaAWQhUzwYUD1sKpiUvFwA=s900">
+                    </div>
+                </div>
+
+                <div class="categorie">
+
+                    <div class="categorie_div">
+                        <h4>Juice</h4>
+                        <div class="plate">
+                            Orange Juice
+                            <span class="prix">$12</span>
+                        </div>
+                        <div class="plate">
+                            Lemonaade
+                            <span class="prix">$8</span>
+                        </div>
+
+                        <div class="plate">
+                            Apple Juice
+                            <span class="prix">$13</span>
+                        </div>
+                        <div class="plate">
+                            Grape Juice
+                            <span class="prix">$15</span>
+                        </div>
+                    </div>
+                    <div class="categorie_img">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj4ZjhnjKm9MPPCudbEgagus33nb0fExaunnc-4pLN-h2bNIq3cuaKg1x4Bb9J6XBX4bnNQSbYN_fKawmoDrSaBFkPRxcencz2Hv3cAIhrxPY_LFOQE-wz8v-Gdpq7Isu9jU8mkKN4wEL3NKiA3PvGkFCqzwkl1Lk6aeDhf4Khf79ZqgzYU8vLS4g=s415">
+                    </div>
+                </div>
+
+            </div>
+            <div class="download">
+                <button>download menu</button>
+            </div>
+
+
+
+        </section>
+
+        <!--===== Reservations =====-->
+        <section class="reservation_section" id="reservation">
+            <div class="reservation section" style="background-image: linear-gradient(#0e0e0e80, #0e0e0e80),url(https://blogger.googleusercontent.com/img/a/AVvXsEjcDdr8Nql622AApvndnP3EdoeM9zxk2E-YodJ8n50vUGNRaqkfHNCpQmwI5zvGaJ5W9ZrGYq-DCuRudEt5KzGVXW7Mi9P4hHpnPGKtkNacZNq1KUI6kmqJx6cFEdRjS93u7V8CvHG1es_vkihg_uFkIFw9uOdBd3kXkCKqB59gMBG9nXID1bk6aQ=s1200);">
+
+                <div class="reservation_container">
+                    <h2>Orders</h2>
+                    <h3>Book Your Order</h3>
+                    <a href="#" class="reserv-button">Book An Order</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <h2 class="section-title">Our Foods</h2>
+        <div class="footer_details">
+            <div class="details">
+                <div>
+                    <i class="bx bx-map"></i>
+                    <h3>Address</h3>
+                    <p>5st./Faisal - Egypt</p>
+                </div>
+                <div>
+                    <i class="bx bx-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+201 1119 55 44 63</p>
+                </div>
+                <div>
+                    <i class="bx bx-mail-send"></i>
+                    <h3>Email</h3>
+                    <p>heshamkhalil@gmail.com</p>
+                </div>
+            </div>
+            <div class="location_div">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1027.1260437421572!2d31.17638266450313!3d30.01313980594921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458471b3cdbd48b%3A0xef403dec59f2980e!2z2YPYqNivINmI2YXYriDYp9mE2LTYsdmC2KfZiNmJ!5e0!3m2!1sen!2seg!4v1643372142865!5m2!1sen!2seg"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <hr>
+        <p>Made By <span class="seyfeddine">Hisham Khalil</span> &#169; 2022 <br>
+
+        </p>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
